@@ -38,4 +38,20 @@
 
 .ld-custom-background-layer {
     background-color: #fff;
+    animation: movingColors 3s linear infinite;
+}
+
+@keyframes movingColors {
+    0% {
+        background-color: #fff;
+        transform: translate(0, 0);
+    }
+    50% {
+        background-color: #00ffaea0;
+        transform: translate(100%, 100%);
+    }
+    100% {
+        background-color: #fff;
+        transform: translate(0, 0);
+    }
 }
