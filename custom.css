@@ -1,39 +1,23 @@
-
 .ld-custom-name {
-    color: #C0C0C0;
+    color: #55aa55;
 }
 
 .ld-custom-name:visited {
-    color: #C0C0C0;
+    color: #55aa55;
 }
 
 .ld-custom-button-container {
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    -webkit-transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    -webkit-transition: -webkit-transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    -webkit-transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    transition: transform 0.15s cubic-bezier(0, 0.2, 0.5, 3);
-    background-color: #2665d6;
-    color: #fff;
+    transition: transform 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .ld-custom-button-container:hover {
-    -webkit-transform: scale(1.02);
-    -ms-transform: scale(1.02);
     transform: scale(1.02);
 }
 
 .ld-custom-button {
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), -webkit-transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    -webkit-transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
-    transition: box-shadow 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), border-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99), transform 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99),
-    background-color 0.25s cubic-bezier(0.08, 0.59, 0.29, 0.99);
+    transition: transform 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
 .ld-custom-background-layer {
